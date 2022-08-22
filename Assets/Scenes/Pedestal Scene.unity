@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.09
+  m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -264,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6921212851339704103, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.037160516
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6921212851339704103, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_LocalPosition.y
@@ -272,7 +272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6921212851339704103, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.005354395
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6921212851339704103, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_LocalRotation.w
@@ -301,13 +301,19 @@ PrefabInstance:
     - target: {fileID: 6921212851339704103, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-
       objectReference: {fileID: 0}
+    - target: {fileID: 7567680323647286906, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7727737137311347907, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0db9c4e1361a62c469d96459ebd086d0, type: 2}
     - target: {fileID: 7730084370849525149, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_Name
       value: Pedestal
       objectReference: {fileID: 0}
-
     - target: {fileID: 7730084370849525149, guid: f2ebcfd355cd0c1459495f6b831b2901, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -675,7 +681,7 @@ Transform:
   m_GameObject: {fileID: 1638246194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 43.762, y: 43.762, z: 43.762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
