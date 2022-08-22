@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Pedestal : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject objectPrefab, objectPlaceholder;
+    private GameObject displayedObject;
     private Animator objectAnimator;
     [Range(0, 5), SerializeField]
     private float animationSpeed = 1.0f;
@@ -15,16 +18,19 @@ public class Pedestal : MonoBehaviour
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
         canvas = GetComponentInChildren<Canvas>();
         canvas.worldCamera = mainCamera;
-        //objectAnimator.speed = animationSpeed;
+        displayedObject = Instantiate(objectPrefab, objectPlaceholder.transform.position, objectPrefab.transform.rotation);
+
+        objectAnimator = displayedObject.GetComponent<Animator>();
+        objectAnimator.speed = animationSpeed;
     }
     private void UpdateSpeed()
     {
-        //objectAnimator.speed = animationSpeed;
+        objectAnimator.speed = animationSpeed;
     }
 
     private void Update()
     {
-        //UpdateSpeed();
+        UpdateSpeed();
     }
     public void SetAnimationSpeed(float value)
     {
