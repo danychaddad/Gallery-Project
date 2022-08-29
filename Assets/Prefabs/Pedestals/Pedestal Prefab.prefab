@@ -313,6 +313,7 @@ GameObject:
   - component: {fileID: 5823680783863961743}
   - component: {fileID: 5564796537317531538}
   - component: {fileID: 4367614468389628696}
+  - component: {fileID: 4744308947239058546}
   m_Layer: 5
   m_Name: Settings Button Canvas
   m_TagString: Untagged
@@ -402,6 +403,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &4744308947239058546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230532675110151865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!1 &2417198429725570334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,7 +1431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3612771325463498392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1784,7 +1804,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.55, y: 1}
   m_AnchoredPosition: {x: -2.096, y: 0}
   m_SizeDelta: {x: 5.312, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1859,8 +1879,8 @@ RectTransform:
   m_Father: {fileID: 3179976962610734708}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.55, y: 0}
+  m_AnchorMax: {x: 0.55, y: 1}
   m_AnchoredPosition: {x: 4.9, y: 0}
   m_SizeDelta: {x: 8.172, y: -11.828}
   m_Pivot: {x: 0.5, y: 0.5}
