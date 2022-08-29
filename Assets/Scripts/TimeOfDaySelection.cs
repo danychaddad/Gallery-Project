@@ -7,8 +7,6 @@ public class TimeOfDaySelection : MonoBehaviour
     [SerializeField]
     private Material[] skyboxes;
     [SerializeField]
-    private Button[] buttons;
-    [SerializeField]
     private Light directionalLight;
     private void Start()
     {
