@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 5823680783863961743}
   - component: {fileID: 5564796537317531538}
   - component: {fileID: 4367614468389628696}
-  - component: {fileID: 8040798343959823157}
+  - component: {fileID: 4744308947239058546}
   m_Layer: 5
   m_Name: Settings Button Canvas
   m_TagString: Untagged
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8040798343959823157
+--- !u!114 &4744308947239058546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
