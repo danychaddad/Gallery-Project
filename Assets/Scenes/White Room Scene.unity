@@ -1392,7 +1392,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!65 &1583767483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2508,14 +2508,6 @@ PrefabInstance:
     - target: {fileID: 431801126423474823, guid: 9a947548bcb90774ca23d3f20d722b86, type: 3}
       propertyPath: m_Name
       value: --- XR ---
-      objectReference: {fileID: 0}
-    - target: {fileID: 534884988043683080, guid: 9a947548bcb90774ca23d3f20d722b86, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3810588558865050576, guid: 9a947548bcb90774ca23d3f20d722b86, type: 3}
-      propertyPath: m_InteractionLayers.m_Bits
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a947548bcb90774ca23d3f20d722b86, type: 3}
