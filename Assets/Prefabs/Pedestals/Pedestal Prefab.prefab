@@ -1021,7 +1021,6 @@ MonoBehaviour:
   skyboxes:
   - {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
   - {fileID: 2100000, guid: 4067de1a02072244798361060c5e7325, type: 2}
-  buttons: []
   directionalLight: {fileID: 0}
 --- !u!1 &4999940305120298751
 GameObject:
